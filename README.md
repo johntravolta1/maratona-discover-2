@@ -63,5 +63,13 @@ node_modules/ => o package.json já tem as dependências que precisa.
 git rm -r --cached node_modules/
 8) agora o git status não mostra mais as node_modules
 9) git add . => pré empacotar o readme que estou mexendo agora e fica sempre vermelho no git status. Quando estiver tudo verdinho, damos um commit com uma mensagem
-10) git commit
+10) git commit => empacotamento
 11) mensagem: commit inicial
+12) git status agora não aparece mais nada pois já foi tudo empacotado
+
+Fazer o check-in:
+13) git branch -M main (muda o nome de master pra main)
+14) git push -u origin main (faz o check-in pro github)
+
+Não funcionou pois não configurei o SSH, para usar o métdos https, use o comando:
+15) git remote set-url origin https://github.com/johntravolta1/maratona-discover-2.git
