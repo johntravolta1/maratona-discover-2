@@ -73,3 +73,4 @@ Fazer o check-in:
 
 Não funcionou pois não configurei o SSH, para usar o métdos https, use o comando:
 15) git remote set-url origin https://github.com/johntravolta1/maratona-discover-2.git
+16) git push -u origin main
